@@ -7,10 +7,9 @@
  */
 int main(void)
 {
-	int a;
-	a=0;
-	while (a < 10)
-		printf("%d\n", a);
-		a++;
+	char za;
+	for (za='z'; za >= 'a'; za--)
+		putchar(za);
+	putchar('\n');
 	return (0);
 }
