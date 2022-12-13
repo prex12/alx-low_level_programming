@@ -2,7 +2,8 @@
 /**
  * print_sign - prints integer sign
  *
- * Return: Always 0 (Success)
+ *@n - integer to be tested
+ * Return 1, 0 or -1
  */
 int print_sign(int n)
 {
