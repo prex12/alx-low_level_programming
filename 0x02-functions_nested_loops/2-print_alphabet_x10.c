@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints all lower case alphabets 
+ * print_alphabet_x10 - prints all lower case alphabets
  *
  * and new line
  */
@@ -16,7 +16,7 @@ void  print_alphabet_x10(void)
 		while (b <= 'z')
 			_putchar(b);
 			b++;
-		putchar('\n');
+		_putchar('\n');
 		a++;
 	}
 }
