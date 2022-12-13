@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - Check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
+void print_alphabet(void);
+
 int main(void)
 {
 	print_alphabet();
