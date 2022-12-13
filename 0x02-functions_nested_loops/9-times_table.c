@@ -1,5 +1,10 @@
 #include "main.h"
-void print_to_98(int n)
+/**
+ * print_to_98 - computes the 9 times table
+ *
+ * followed by new line
+ */
+void times_table(void)
 {
 	int a, b, c;
 
