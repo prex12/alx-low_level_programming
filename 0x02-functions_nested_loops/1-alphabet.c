@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * prints the Alphabets
+ * from a - z
+ */
 void print_alphabet(void)
 {
 	char a;
