@@ -37,3 +37,8 @@ void print_alphabet_x10(void)
 		b++;
 	}
 }
+
+int _islower(int c)
+{
+	return (c >= 'a' && c <= 'z');
+}
