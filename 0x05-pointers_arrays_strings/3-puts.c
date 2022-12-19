@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - prints a passed string or strings
+ * _puts - prints a passed string or strings to the stdout
  * @str: string collects here
- * followed by new line
- *
  */
 
 void _puts(char *str)
