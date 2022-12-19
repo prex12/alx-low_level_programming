@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *
+ * _puts - prints a passed string or strings
+ * @str: string collects here
+ * followed by new line
  *
  */
 
