@@ -14,6 +14,7 @@ char *cap_string(char *str)
 
 	a = 0;
 	while (str[a] != '\0')
+	{
 		if (a == 0 && str[a] >= 'a' && str[a] <= 'z')
 			str[a] = str[a] - 32;
 		for (int b = 0; b < 13; b++)
@@ -25,5 +26,7 @@ char *cap_string(char *str)
 			}
 		}
 		a++;
+	}
+
 	return (str);
 }
