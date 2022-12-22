@@ -9,15 +9,19 @@
 
 char *cap_string(char *str)
 {
-	int a;
-	char me[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	int a, b;
+	char me[13] = {' ', '\t', '\n', ',', ';', '.', '!',
+	       	'?', '"', '(', ')', '{', '}'};
 
 	a = 0;
+
 	while (str[a] != '\0')
 	{
+	/* check if the the first string generally is in upper*/
 		if (a == 0 && str[a] >= 'a' && str[a] <= 'z')
 			str[a] = str[a] - 32;
-		for (int b = 0; b < 13; b++)
+
+		for (b = 0; b < 13; b++)
 		{
 			if (str[a] == me[b])
 			{
