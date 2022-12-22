@@ -1,10 +1,11 @@
-#incude "main.h"
+#include "main.h"
 
 /**
  * string_toupper - converts a string to upper case
  * @str: points to each charater in string
  * Return: str 
  */
+
 char *string_toupper(char *str)
 {
 	int a;
