@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *
+ * str_concat - concatinates 2 strings
+ * @s1: pointer to first string
+ * @s2: ppointer to second string
+ * Return: the pointer concatinated string
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -27,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 		while (c < a)
 		{
 			newcat[c] = s1[c];
-			c++
+			c++;
 		}
 	}
 	if (s2)
