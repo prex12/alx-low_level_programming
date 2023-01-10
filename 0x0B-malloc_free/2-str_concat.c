@@ -19,7 +19,6 @@ char *str_concat(char *s1, char *s2)
 	newcat = malloc((a + b + 1) * sizeof(char));
 	if (newcat == NULL)
 		return (NULL);
-
 	c = 0;
 	d = 0;
 
@@ -27,9 +26,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		while (c < a)
 		{
-			newcat[c] = s2[c];
-			c++;
-		}	
+			newcat[c] = s1[c];
+			c++
+		}
 	}
 	if (s2)
 	{
