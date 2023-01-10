@@ -25,6 +25,6 @@ char *_strdup(char *str)
 
 	while ((new[n] = str[n]) != '\0')
 		n++;
-
+	free(new);
 	return (new);
 }
