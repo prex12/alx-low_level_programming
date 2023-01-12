@@ -34,10 +34,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		b++;
 	}
 
-	while (n < len_2 && a < (len_1 + n))
+	while (n < len_2 && b < (len_1 + n))
 		a[b++] = s2[c++];
 
-	while (n >= len_2 && a < (len_1 + len_2))
+	while (n >= len_2 && b < (len_1 + len_2))
 		a[b++] = s2[c++];
 
 	a[b] = '\0';
