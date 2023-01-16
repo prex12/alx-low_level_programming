@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - prints name of compilation file
  * Return: 0 Success
  */
-int void(main)
+int main(void)
 {
 	printf("%s\n", __FILE__);
 
