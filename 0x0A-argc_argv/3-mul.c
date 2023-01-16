@@ -7,13 +7,14 @@
  * Return: 0 Success and 1 on error
  */
 int _add2(char *s);
-int main(int argc, char argv[])
+
+int main(int argc, char *argv[])
 {
 	int first, second, result;
 
 	if (argc < 3 || argc > 3)
 	{
-		printf("Error encountered\n");
+		printf("Error\n");
 		return (1);
 	}
 	first = _add2(argv[1]);
