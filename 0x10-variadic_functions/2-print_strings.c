@@ -1,4 +1,4 @@
-#include "variadic_functions"
+#include "variadic_functions.h"
 /**
  * print_strings - prints strings passed as arg
  * @separator: separator string
@@ -16,15 +16,16 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		str = va_arg(arg, char *);
 
-		if (separator == NULL)
+		if (!str)
 			str = "(nil)";
-		if (separator == NULL)
+		if (!separator)
 			printf("%s", str);
 		else if (separator && a == 0)
 			printf("%s", str);
 		else
 			printf("%s%s", separator, str);
 	}
+
 	printf("\n");
 
 	va_end(arg);
