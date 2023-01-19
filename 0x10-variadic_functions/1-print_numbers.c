@@ -4,7 +4,7 @@
  * @separator: seperates each arguement
  * @n: int arguements
  */
-void print_numbers(const char *separator, cont unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int a;
 	va_list arg;
